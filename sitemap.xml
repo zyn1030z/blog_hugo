@@ -28,6 +28,21 @@
   </url>
   
   <url>
+    <loc>https://hungpt.info/tags/javascript/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/reactjs/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hungpt.info/archives.fr/</loc>
   </url>
   
@@ -53,10 +68,6 @@
   
   <url>
     <loc>https://hungpt.info/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/tags/</loc>
   </url>
   
 </urlset>
