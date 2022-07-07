@@ -9,7 +9,7 @@
       <link>https://hungpt.info/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 11:22:29 +0700</lastBuildDate><atom:link href="https://hungpt.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kiến thức Javascript cơ bản cần phải biết trước khi học ReactJS</title>
       <link>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
@@ -26,6 +26,16 @@
       
       <guid>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
       <description>Những lỗi cơ bản trong lập trình mà developer nên tránh.</description>
+    </item>
+    
+    <item>
+      <title>Odoo Javascript Programming Tutorial Part One Create Widget View</title>
+      <link>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
+      <pubDate>Thu, 07 Jul 2022 11:22:29 +0700</pubDate>
+      
+      <guid>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
+      <description>Đối với lập trình viên odoo, Widget là một thứ khá mới mẻ bởi vì chúng ta hiếm khi lập trình với ngôn ngữ javascript. Hầu như tất cả logic được viết với python, ngoại trừ khi tùy chỉnh điểm bán hàng(POS) hoặc mô-đun thương mại điện tử(Website).
+Đối với những lập trình viên odoo, theo cá nhân mình thấy thì javascript là phần cuối cùng mà bạn nên học. Tốt hơn hết bạn nên lập trung code với python trừ khi dự án bạn làm liên quan đến POS hoặc Website</description>
     </item>
     
     <item>

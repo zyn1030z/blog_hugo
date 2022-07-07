@@ -9,13 +9,22 @@
       <link>https://hungpt.info/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 11:22:29 +0700</lastBuildDate><atom:link href="https://hungpt.info/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript</title>
       <link>https://hungpt.info/tags/javascript/</link>
-      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Jul 2022 11:22:29 +0700</pubDate>
       
       <guid>https://hungpt.info/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odoo</title>
+      <link>https://hungpt.info/tags/odoo/</link>
+      <pubDate>Thu, 07 Jul 2022 11:22:29 +0700</pubDate>
+      
+      <guid>https://hungpt.info/tags/odoo/</guid>
       <description></description>
     </item>
     
