@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>JavaScript on Hungpt.info😃</title>
+    <title>Javascript on Hungpt.info😃</title>
     <link>https://hungpt.info/tags/javascript/</link>
-    <description>Recent content in JavaScript on Hungpt.info😃</description>
+    <description>Recent content in Javascript on Hungpt.info😃</description>
     <image>
       <url>https://hungpt.info/papermod-cover.png</url>
       <link>https://hungpt.info/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Jul 2022 11:22:29 +0700</lastBuildDate><atom:link href="https://hungpt.info/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 10:12:07 +0700</lastBuildDate><atom:link href="https://hungpt.info/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kiến thức Javascript cơ bản cần phải biết trước khi học ReactJS</title>
       <link>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
@@ -17,6 +17,17 @@
       
       <guid>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
       <description>ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, ….</description>
+    </item>
+    
+    <item>
+      <title>Reduce trong Javascript </title>
+      <link>https://hungpt.info/posts/javascript-array-reduce/</link>
+      <pubDate>Sat, 09 Jul 2022 10:12:07 +0700</pubDate>
+      
+      <guid>https://hungpt.info/posts/javascript-array-reduce/</guid>
+      <description>Gỉa sử chúng có một mảng các chữ số như sau:
+const numbers = [2, 4, 6]; Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
+const numbers = [2, 4, 6]; const sum = numbers.reduce(function(sum, number) { const updatedSum = sum + number; return updatedSum; }, 0); sum; // 12 Trong bài viết này, chúng ta sẽ tìm hiểu về phương thức reduce và cách sử dụng array.</description>
     </item>
     
     <item>
