@@ -50,5 +50,14 @@ field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta k
 Đối với những lập trình viên odoo, theo cá nhân mình thấy thì javascript là phần cuối cùng mà bạn nên học. Tốt hơn hết bạn nên lập trung code với python trừ khi dự án bạn làm liên quan đến POS hoặc Website</description>
     </item>
     
+    <item>
+      <title>Sử dụng useState() Hook trong React như nào cho đúng?</title>
+      <link>https://hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</guid>
+      <description>Sử dụng useState() Hook trong React như nào cho đúng?</description>
+    </item>
+    
   </channel>
 </rss>
