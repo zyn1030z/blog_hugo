@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hungpt.info</title>
-    <link>https://hungpt.info/</link>
+    <link>https://www.hungpt.info/</link>
     <description>Recent content on Hungpt.info</description>
     <image>
-      <url>https://hungpt.info/thumbnail.jpg</url>
-      <link>https://hungpt.info/thumbnail.jpg</link>
+      <url>https://www.hungpt.info/thumbnail.jpg</url>
+      <link>https://www.hungpt.info/thumbnail.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jul 2022 10:12:07 +0700</lastBuildDate><atom:link href="https://hungpt.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 10:12:07 +0700</lastBuildDate><atom:link href="https://www.hungpt.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kiến thức Javascript cơ bản cần phải biết trước khi học ReactJS</title>
-      <link>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
+      <link>https://www.hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
+      <guid>https://www.hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
       <description>ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, ….</description>
     </item>
     
     <item>
       <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
-      <link>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
+      <link>https://www.hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
+      <guid>https://www.hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
       <description>Những lỗi cơ bản trong lập trình mà developer nên tránh.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://hungpt.info/about/</link>
+      <link>https://www.hungpt.info/about/</link>
       <pubDate>Sun, 10 Jul 2022 18:52:07 +0700</pubDate>
       
-      <guid>https://hungpt.info/about/</guid>
+      <guid>https://www.hungpt.info/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://hungpt.info/projects/</link>
+      <link>https://www.hungpt.info/projects/</link>
       <pubDate>Sun, 10 Jul 2022 18:51:18 +0700</pubDate>
       
-      <guid>https://hungpt.info/projects/</guid>
+      <guid>https://www.hungpt.info/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tìm hiểu về phương thức Reduce trong Javascript</title>
-      <link>https://hungpt.info/posts/javascript-array-reduce/</link>
+      <link>https://www.hungpt.info/posts/javascript-array-reduce/</link>
       <pubDate>Sat, 09 Jul 2022 10:12:07 +0700</pubDate>
       
-      <guid>https://hungpt.info/posts/javascript-array-reduce/</guid>
+      <guid>https://www.hungpt.info/posts/javascript-array-reduce/</guid>
       <description>Gỉa sử chúng có một mảng các chữ số như sau:
 const numbers = [2, 4, 6]; Làm sao chúng ta có thể tính tổng các chữ số trong mảng trên. Sử dụng reduce trong javascript chúng ta có dễ dàng làm việc này mà không cần sử dụng vòng lặp.
 const numbers = [2, 4, 6]; const sum = numbers.reduce(function(sum, number) { const updatedSum = sum + number; return updatedSum; }, 0); sum; // 12 Trong bài viết này, chúng ta sẽ tìm hiểu về phương thức reduce và cách sử dụng array.</description>
@@ -59,30 +59,30 @@ const numbers = [2, 4, 6]; const sum = numbers.reduce(function(sum, number) { co
     
     <item>
       <title>(Javascript trong Odoo) Phần 2 Tạo logic cho widget</title>
-      <link>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</link>
+      <link>https://www.hungpt.info/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</link>
       <pubDate>Thu, 07 Jul 2022 14:15:33 +0700</pubDate>
       
-      <guid>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</guid>
+      <guid>https://www.hungpt.info/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</guid>
       <description>Trong phần 1, chúng ta đã tạo ra 1 Widget để hiển thị một đoạn text văn bản. Sang phần 2 này, chúng ta cùng nhau xây dựng một logic cho widget này. Tiếp theo bạn cần khai báo 1 trường như sau:
 field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta khai báo 1 field như trên và thêm chúng vào XML, mặc định Odoo sẽ cho chúng ta sửa giá trị trên giao diện kiểu như sau: Nhưng để có thể hạn chế thêm việc người dùng nhập vào không phải ký tự là số nguyên, ở đây mình sẽ thêm 2 nút tăng giảm + - và trường giá trị để readonly.</description>
     </item>
     
     <item>
       <title>(Javascript trong Odoo) Phần 1 Tạo widget</title>
-      <link>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
+      <link>https://www.hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</link>
       <pubDate>Thu, 07 Jul 2022 11:22:29 +0700</pubDate>
       
-      <guid>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
+      <guid>https://www.hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</guid>
       <description>Đối với lập trình viên odoo, Widget là một thứ khá mới mẻ bởi vì chúng ta hiếm khi lập trình với ngôn ngữ javascript. Hầu như tất cả logic được viết với python, ngoại trừ khi tùy chỉnh điểm bán hàng(POS) hoặc mô-đun thương mại điện tử(Website).
 Đối với những lập trình viên odoo, theo cá nhân mình thấy thì javascript là phần cuối cùng mà bạn nên học. Tốt hơn hết bạn nên lập trung code với python trừ khi dự án bạn làm liên quan đến POS hoặc Website</description>
     </item>
     
     <item>
       <title>Sử dụng useState() Hook trong React như nào cho đúng?</title>
-      <link>https://hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
+      <link>https://www.hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</link>
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</guid>
+      <guid>https://www.hungpt.info/posts/su-dung-usestate-hook-trong-react-nhu-nao-cho-dung/</guid>
       <description>Sử dụng useState() Hook trong React như nào cho đúng?</description>
     </item>
     
