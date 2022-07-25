@@ -85,8 +85,8 @@ if (!doNotTrack) {
   "keywords": [
     "Javascript"
   ],
-  "articleBody": "useEffect là 1 hook cơ bản trong Reactjs, nhưng khi bạn mới họ sẽ thấy nó hơi khó một chút😁. Lý do nó khó không phải vì hook này nó khó mà vì để có thể sử dụng được hook này đòi hỏi bạn phải nắm vững kiến thức Javascript cơ bản và nâng cao. Thế nên nếu bạn đi vào đây học quá nhanh hoặc quên mất kiến thức nền thì học sẽ bị khó.\nỞ đây mình sẽ review cho bạn một số kiến thức mà bạn nên nắm chắc khi học hook này:\n Events : Bạn nên biết cách làm việc với event trong javascript, bao gồm cả Dom event và custom event do bạn tạo ra, biết cách sử dụng add/remove event listener, hiểu tại sao phải remove event listener Observer parttern : (Subscribe/unsubcribe) Đây là 1 dạng triển khai mở rông của tư tưởng add/remove listener, bản chất cũng là dạng đầu tiên nhưng triển khai ở 1 dạng khác Bạn cần nắm rõ khái niệm hàm đóng Closure trong Javascript. Biết cách làm việc với api dạng timer như setInterval, setTimeout, clearInterval, ClearTimeout. Nắm chắc hook useState. Hiểu rõ khi nào mounted, khi nào unmounted.  ",
-  "wordCount" : "201",
+  "articleBody": "useEffect là 1 hook cơ bản trong Reactjs, nhưng khi bạn mới họ sẽ thấy nó hơi khó một chút😁. Lý do nó khó không phải vì hook này nó khó mà vì để có thể sử dụng được hook này đòi hỏi bạn phải nắm vững kiến thức Javascript cơ bản và nâng cao. Thế nên nếu bạn đi vào đây học quá nhanh hoặc quên mất kiến thức nền thì học sẽ bị khó.\nỞ đây mình sẽ review cho bạn một số kiến thức mà bạn nên nắm chắc khi học hook này:\n Events : Bạn nên biết cách làm việc với event trong javascript, bao gồm cả Dom event và custom event do bạn tạo ra, biết cách sử dụng add/remove event listener, hiểu tại sao phải remove event listener Observer parttern : (Subscribe/unsubcribe) Đây là 1 dạng triển khai mở rông của tư tưởng add/remove listener, bản chất cũng là dạng đầu tiên nhưng triển khai ở 1 dạng khác Bạn cần nắm rõ khái niệm hàm đóng Closure trong Javascript. Biết cách làm việc với api dạng timer như setInterval, setTimeout, clearInterval, ClearTimeout. Nắm chắc hook useState. Hiểu rõ khi nào mounted, khi nào unmounted.  Hook này để làm gì và chúng ta dùng nó khi nào? Chúng ta sẽ dùng useEffect khi các bạn muốn thực hiện các side effect, thuật ngữ này được sử dụng chung trong lĩnh vực phần mềm, side effect đang nói tới 1 chương trình phần mềm khi có 1 tác động xảy ra dẫn đến dữ liệu bị thay đổi. Mình sẽ đưa cho bạn một vài ví du quen thuộc để bạn dễ hình dung đó là khi bạn update DOM, call api nhận lại dữ liệu để setState….\nTóm lại useEffect sẽ giúp các bạn update DOM, call API, listen DOM event, remove event listener…\n",
+  "wordCount" : "310",
   "inLanguage": "en",
   "datePublished": "2022-07-25T00:00:00Z",
   "dateModified": "2022-07-25T00:00:00Z",
@@ -180,10 +180,23 @@ if (!doNotTrack) {
     <div class="post-description">
       Cách sử dụng useEffect trong Reactjs .
     </div>
-    <div class="post-meta"><span title='2022-07-25 00:00:00 +0000 UTC'>July 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_effect.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2022-07-25 00:00:00 +0000 UTC'>July 25, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_effect.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#hook-n%c3%a0y-%c4%91%e1%bb%83-l%c3%a0m-g%c3%ac-v%c3%a0-ch%c3%bang-ta-d%c3%b9ng-n%c3%b3-khi-n%c3%a0o" aria-label="Hook này để làm gì và chúng ta dùng nó khi nào?">Hook này để làm gì và chúng ta dùng nó khi nào?</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
 
   <div class="post-content"><p>useEffect là 1 hook cơ bản trong Reactjs, nhưng khi bạn mới họ sẽ thấy nó hơi khó một chút😁. Lý do nó khó không phải vì hook
 này nó khó mà vì để có thể sử dụng được hook này đòi hỏi bạn phải nắm vững kiến thức Javascript cơ bản và nâng cao. Thế nên
@@ -199,6 +212,11 @@ sử dụng <strong>add/remove event listener</strong>, hiểu tại sao phải 
 <li>Nắm chắc hook useState.</li>
 <li>Hiểu rõ khi nào mounted, khi nào unmounted.</li>
 </ul>
+<h3 id="hook-này-để-làm-gì-và-chúng-ta-dùng-nó-khi-nào">Hook này để làm gì và chúng ta dùng nó khi nào?<a hidden class="anchor" aria-hidden="true" href="#hook-này-để-làm-gì-và-chúng-ta-dùng-nó-khi-nào">#</a></h3>
+<p>Chúng ta sẽ dùng useEffect khi các bạn muốn thực hiện các <strong>side effect</strong>, thuật ngữ này được sử dụng chung trong lĩnh vực phần mềm,
+<strong>side effect</strong> đang nói tới 1 chương trình phần mềm khi có 1 tác động xảy ra dẫn đến dữ liệu bị thay đổi. Mình sẽ đưa
+cho bạn một vài ví du quen thuộc để bạn dễ hình dung đó là khi bạn update DOM, call api nhận lại dữ liệu để setState&hellip;.</p>
+<p>Tóm lại useEffect sẽ giúp các bạn update DOM, call API, listen DOM event, remove event listener&hellip;</p>
 
 
   </div>
