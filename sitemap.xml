@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://hungpt.info/posts/use_effect_part2/</loc>
+    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hungpt.info/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +39,11 @@
   
   <url>
     <loc>https://hungpt.info/posts/</loc>
+    <lastmod>2022-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/reactjs/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -70,11 +80,6 @@
   <url>
     <loc>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-one-create-widget-view/</loc>
     <lastmod>2022-07-07T11:22:29+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/tags/reactjs/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>

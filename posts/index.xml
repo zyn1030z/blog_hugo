@@ -38,12 +38,21 @@
     </item>
     
     <item>
-      <title>Cách sử dụng useEffect trong Reactjs</title>
+      <title>Cách sử dụng useEffect trong Reactjs (Phần 1)</title>
       <link>https://hungpt.info/posts/use_effect/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hungpt.info/posts/use_effect/</guid>
       <description>Cách sử dụng useEffect trong Reactjs .</description>
+    </item>
+    
+    <item>
+      <title>Cách sử dụng useEffect trong Reactjs (Phần 2)</title>
+      <link>https://hungpt.info/posts/use_effect_part2/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/use_effect_part2/</guid>
+      <description>UseEffect với dependencies trong Reactjs .</description>
     </item>
     
     <item>
