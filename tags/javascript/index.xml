@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Cách sử dụng useEffect trong ReactJS (Phần 4)</title>
+      <link>https://hungpt.info/posts/use_effect_part4/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/use_effect_part4/</guid>
+      <description>UseEffect với Timer function.</description>
+    </item>
+    
+    <item>
       <title> Mounted &amp; Unmounted? </title>
       <link>https://hungpt.info/posts/placeholder-text/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
