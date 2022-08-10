@@ -85,8 +85,8 @@ if (!doNotTrack) {
   "keywords": [
     "Javascript", "ReactJS"
   ],
-  "articleBody": "Nội dung ở phần này mình muốn đưa cho các bạn sẽ có 3 phần chính:\n Cách listen DOMEvent trong React component Vấn để xảy ra khi chúng ta listen DOM Event là gì? Cách khắc phục vấn đề này  to be continue…\n",
-  "wordCount" : "43",
+  "articleBody": "Nội dung ở phần này mình muốn đưa cho các bạn sẽ có 3 phần chính:\n Cách listen DOMEvent trong React component Vấn để xảy ra khi chúng ta listen DOM Event là gì? Cách khắc phục vấn đề nàymột  Trong phần này, chúng ta phải nắm vững kiến thức Javascript cơ bản đó là listen DOM Event bạn có thể tham khảo tài liệu tại đây Listen DOM Event\nMình sẽ xác định rõ ngay từ đầu là khi thực hiện một logic mới, chúng ta sẽ viết ra 1 useEffect mới\nBây giờ chúng ta sẽ làm 1 ví dụ, đó là khi chúng ta cuộn chuột xuống 1 khoảng lớn hơn hoặc = 200 px thì sẽ hiện 1 nút Go to top để hiện lên trang đầu, như trong blog này của mình cũng có tính năng này.\nỞ trường hợp này chúng ta sẽ đi listenDOM 1 lần, khi đó chúng ta sẽ truyền dependencies vào là []\nuseEffect(() = { const handleScroll = () ={ console.log(window.scrollY) } window.addEventListener('scroll', handleScroll) }, []) ở đây chúng ta sẽ code Javascript thuần, để có thể ẩn hiện được button go to top, chúng ta cần phải re render lại giao diện, với ReactJs chúng ta sẽ dùng hoook useState mà chúng ta đã tìm hiểu ở các phần trước.\nfunction Content() { const [title, setTitle] = useState('') const [posts, setPosts] = useState([]) const [types, setTypes] = useState(['posts']) const [showGoToTop, setShowGoToTop] = useState(false) useEffect( () ={ console.log('title changed') document.title = title; fetch(`https://jsonplaceholder.typicode.com/${types}`) .then(res = res.json()) .then(posts ={ setPosts(posts) }) },[types] ) useEffect(() = { const handleScroll = () ={ if(window.scrollY = 200){ setShowGoToTop(true) }else{ setShowGoToTop(false) } } window.addEventListener('scroll', handleScroll) }, []) Sau đó mình sẽ viết 1 đoạn code để ẩn hiện button go to top theo state bên trên\n {showGoToTop \u0026\u0026 ( Go to top  )} Và kết quả sẽ như sau: Tuy nhiên nếu các bạn để ý thì chúng ta sẽ thấy rằng, nếu chúng ta tiếp tục kéo chuột xuống thì useEffect sẽ liên tục được gọi dẫn tới việc liên tục re render lại giao diện? Câu trả lời là không, ReactJS đã giúp chúng ta ngăn chặn việc đó. Có nghĩ là mặc dù hàm trong useEffect được gọi lại liên tục nhưng component sẽ không bị re render lại.\nĐến với 1 vấn đề tiếp theo, bây giờ chúng ta thử unmount component rồi mount lại, xong đó kéo chuột xuống, sẽ có 1 thông báo mà ReactJS báo cho chúng ta như sau: Đó là bởi vì khi component của chúng ta unmount thì Event Listen chúng ta thêm vào chưa được xóa đi, dẫn tới việc khi chúng ta mount lại component thì 1 event listen nữa lại được thêm vào, điều này dẫn đến lãng phí tài nguyên, dò rỉ bộ nhớ. Vậy giải pháp ở đây là gì? Đó chính là Cleanup Function và trong callback của useEffect các bạn có thể return ra 1 hàm\nuseEffect(() = { const handleScroll = () ={ if(window.scrollY = 200){ setShowGoToTop(true) }else{ setShowGoToTop(false) } } window.addEventListener('scroll', handleScroll) // cleanup function return () = window.removeEventListener('scroll', handleScroll) }, []) Hy vọng sau phần này bạn sẽ nắm rõ cách xử lý DOM event trong Reactjs 😄. Bye bye\n",
+  "wordCount" : "556",
   "inLanguage": "en",
   "datePublished": "2022-08-01T00:00:00Z",
   "dateModified": "2022-08-01T00:00:00Z",
@@ -180,7 +180,7 @@ if (!doNotTrack) {
     <div class="post-description">
       UseEffect với DOMEvent .
     </div>
-    <div class="post-meta"><span title='2022-08-01 00:00:00 +0000 UTC'>August 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_effect_part3.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2022-08-01 00:00:00 +0000 UTC'>August 1, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_effect_part3.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -189,9 +189,82 @@ if (!doNotTrack) {
 <ul>
 <li>Cách listen DOMEvent trong React component</li>
 <li>Vấn để xảy ra khi chúng ta listen DOM Event là gì?</li>
-<li>Cách khắc phục vấn đề này</li>
+<li>Cách khắc phục vấn đề nàymột</li>
 </ul>
-<p>to be continue&hellip;</p>
+<p>Trong phần này, chúng ta phải nắm vững kiến thức Javascript cơ bản đó là listen DOM Event bạn có thể tham khảo tài liệu tại đây <a href="https://www.w3schools.com/jsref/dom_obj_event.asp">Listen DOM Event</a></p>
+<p>Mình sẽ xác định rõ ngay từ đầu là khi thực hiện một logic mới, chúng ta sẽ viết ra 1 useEffect mới</p>
+<p>Bây giờ chúng ta sẽ làm 1 ví dụ, đó là khi chúng ta cuộn chuột xuống 1 khoảng lớn hơn hoặc = 200 px thì sẽ hiện 1 nút <em><strong>Go to top</strong></em>
+để hiện lên trang đầu, như trong blog này của mình cũng có tính năng này.</p>
+<p>Ở trường hợp này chúng ta sẽ đi listenDOM 1 lần, khi đó chúng ta sẽ truyền dependencies vào là []</p>
+<pre><code>useEffect(() =&gt; {
+        const handleScroll = () =&gt;{
+            console.log(window.scrollY)
+        }
+        window.addEventListener('scroll', handleScroll)
+    }, [])
+</code></pre><p>ở đây chúng ta sẽ code Javascript thuần, để có thể ẩn hiện được button go to top, chúng ta cần phải re render lại giao diện, với ReactJs chúng ta sẽ dùng hoook
+useState mà chúng ta đã tìm hiểu ở các phần trước.</p>
+<pre><code>function Content() {
+    const [title, setTitle] = useState('')
+    const [posts, setPosts] = useState([])
+    const [types, setTypes] = useState(['posts'])
+    const [showGoToTop, setShowGoToTop] = useState(false)
+    useEffect(
+        () =&gt;{
+            console.log('title changed')
+            document.title = title;
+            fetch(`https://jsonplaceholder.typicode.com/${types}`)
+            .then(res =&gt; res.json())
+            .then(posts =&gt;{
+                setPosts(posts)
+            })
+        },[types]
+    )
+    useEffect(() =&gt; {
+        const handleScroll = () =&gt;{
+            if(window.scrollY &gt;= 200){
+                setShowGoToTop(true)
+            }else{
+                setShowGoToTop(false)
+            }
+        }
+        window.addEventListener('scroll', handleScroll)
+    }, [])
+</code></pre><p>Sau đó mình sẽ viết 1 đoạn code để ẩn hiện button go to top theo state bên trên</p>
+<pre><code> {showGoToTop &amp;&amp; (
+                &lt;button style={{
+                    position: 'fixed',
+                    right: 20,
+                    bottom: 20
+                }}&gt;
+                    Go to top
+                &lt;/button&gt;
+            )}
+</code></pre><p>Và kết quả sẽ như sau:
+<img loading="lazy" src="/img_9.png" alt=""  />
+
+Tuy nhiên nếu các bạn để ý thì chúng ta sẽ thấy rằng, nếu chúng ta tiếp tục kéo chuột xuống thì useEffect sẽ liên tục được gọi
+dẫn tới việc liên tục re render lại giao diện? Câu trả lời là không, ReactJS đã giúp chúng ta ngăn chặn việc đó. Có nghĩ là mặc dù hàm trong useEffect được gọi lại liên tục nhưng
+component sẽ không bị re render lại.</p>
+<p>Đến với 1 vấn đề tiếp theo, bây giờ chúng ta thử unmount component rồi mount lại, xong đó kéo chuột xuống, sẽ có 1 thông báo mà ReactJS báo cho chúng ta như sau:
+<img loading="lazy" src="/img_10.png" alt=""  />
+
+Đó là bởi vì khi component của chúng ta unmount thì Event Listen chúng ta thêm vào chưa được xóa đi, dẫn tới việc khi chúng ta mount lại component thì 1 event
+listen nữa lại được thêm vào, điều này dẫn đến lãng phí tài nguyên, dò rỉ bộ nhớ. Vậy giải pháp ở đây là gì? Đó chính là <em><strong>Cleanup Function</strong></em> và trong callback
+của useEffect các bạn có thể return ra 1 hàm</p>
+<pre><code>useEffect(() =&gt; {
+        const handleScroll = () =&gt;{
+            if(window.scrollY &gt;= 200){
+                setShowGoToTop(true)
+            }else{
+                setShowGoToTop(false)
+            }
+        }
+        window.addEventListener('scroll', handleScroll)
+        // cleanup function
+        return () =&gt; window.removeEventListener('scroll', handleScroll)
+    }, [])
+</code></pre><p>Hy vọng sau phần này bạn sẽ nắm rõ cách xử lý DOM event trong Reactjs 😄. Bye bye</p>
 
 
   </div>
