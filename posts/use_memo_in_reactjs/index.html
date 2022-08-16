@@ -85,8 +85,8 @@ if (!doNotTrack) {
   "keywords": [
     "Javascript", "ReactJS"
   ],
-  "articleBody": "Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useMemo và 1 HOC trong ReactJS là memo nhé!😄\nTrong quá trình làm việc với React, chúng ta sẽ có lựa chọn như:\n Hooks render props higher-order-components (HOCs)  Mình sẽ nói cụ thể hơn 3 phần này khác gì nhau ở bài viết sau nhé 😄\n1. memo trong ReactJS 2. useMemo trong ReactJS ",
-  "wordCount" : "71",
+  "articleBody": "Trong bài viết lần này, chúng ta hãy cùng tìm hiểu 1 hook mới trong ReactJS là useMemo và 1 HOC trong ReactJS là memo nhé!😄\nTrong quá trình làm việc với React, chúng ta sẽ có lựa chọn như:\n Hooks render props higher-order-components (HOCs)  Mình sẽ nói cụ thể hơn 3 phần này khác gì nhau ở bài viết sau nhé 😄\n1. memo trong ReactJS mình có 1 đoạn code đơn giản như sau\nimport {useState} from \"react\"; import {useEffect} from \"react\"; import Content from \"./Content\"; import Chat_content from \"./chat_fake/Chat_content\"; import UseRef from \"./use_ref/UseRef\"; import Memo_content from \"./memo/Memo_content\"; function App() { const [show, setShow] = useState(false) const [number, setNumber] = useState(1) const handleSetnumber = () = { setNumber(number+1) } return (     {number}  Click   ) } export default App; Và đây là code của component Memo_content\nimport {memo, useEffect, useState} from \"react\"; function Memo_content() { console.log('render') return (  Hello  ) } export default Memo_content; Chúng ta có thể thấy, mỗi khi click đẩ thay đổi state của component cha thì component con là Memo_content cũng được render lại mặc dù component con không có gì thay đổi. Vậy chúng ta sẽ xử lý vấn đề này như thế nào?\nRất đơn giản, bạn chỉ cần thêm memo để wrap lại component con như sau:\nexport default memo(Memo_content); Thông thường với những component nặng về xử lý logic như biểu đồ, dashboard mà chúng ta không muốn render lại component thì nên dùng cách này, còn thông thường việc này cũng không quá quan trọng 😄 theo mình là như vậy\n2. useMemo trong ReactJS ",
+  "wordCount" : "279",
   "inLanguage": "en",
   "datePublished": "2022-08-16T00:00:00Z",
   "dateModified": "2022-08-16T00:00:00Z",
@@ -180,7 +180,7 @@ if (!doNotTrack) {
     <div class="post-description">
       useMemo và memo trong ReactJs.
     </div>
-    <div class="post-meta"><span title='2022-08-16 00:00:00 +0000 UTC'>August 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_memo_in_reactjs.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2022-08-16 00:00:00 +0000 UTC'>August 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Hung pham&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use_memo_in_reactjs.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> <div class="toc">
@@ -209,6 +209,57 @@ if (!doNotTrack) {
 </ul>
 <p>Mình sẽ nói cụ thể hơn 3 phần này khác gì nhau ở bài viết sau nhé 😄</p>
 <h3 id="1-memo-trong-reactjs">1. memo trong ReactJS<a hidden class="anchor" aria-hidden="true" href="#1-memo-trong-reactjs">#</a></h3>
+<p>mình có 1 đoạn code đơn giản như sau</p>
+<pre><code>import {useState} from &quot;react&quot;;
+import {useEffect} from &quot;react&quot;;
+import Content from &quot;./Content&quot;;
+import Chat_content from &quot;./chat_fake/Chat_content&quot;;
+import UseRef from &quot;./use_ref/UseRef&quot;;
+import Memo_content from &quot;./memo/Memo_content&quot;;
+
+function App() {
+    const [show, setShow] = useState(false)
+    const [number, setNumber] = useState(1)
+
+    const handleSetnumber = () =&gt; {
+        setNumber(number+1)
+    }
+    return (
+        &lt;div style={{padding: 32}}&gt;
+            &lt;div&gt;
+                &lt;Memo_content/&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                {number}
+            &lt;/div&gt;
+            &lt;button onClick={handleSetnumber}&gt;
+                Click
+            &lt;/button&gt;
+        &lt;/div&gt;
+
+    )
+}
+
+export default App;
+</code></pre><p>Và đây là code của component Memo_content</p>
+<pre><code>import {memo, useEffect, useState} from &quot;react&quot;;
+
+function Memo_content() {
+    console.log('render')
+    return (
+        &lt;div&gt;
+            Hello
+        &lt;/div&gt;
+    )
+}
+
+export default Memo_content;
+</code></pre><p>Chúng ta có thể thấy, mỗi khi click đẩ thay đổi state của component cha thì component con là Memo_content cũng được
+render lại mặc dù component con không có gì thay đổi. Vậy chúng ta sẽ xử lý vấn đề này như thế nào?</p>
+<p>Rất đơn giản, bạn chỉ cần thêm memo để wrap lại component con như sau:</p>
+<pre><code>export default memo(Memo_content);
+</code></pre><p>Thông thường với những component nặng về xử lý logic như biểu đồ, dashboard mà chúng ta không muốn render lại
+component thì nên dùng cách này, còn thông thường việc này cũng không quá quan trọng 😄 theo mình là như vậy</p>
 <h3 id="2-usememo-trong-reactjs">2. useMemo trong ReactJS<a hidden class="anchor" aria-hidden="true" href="#2-usememo-trong-reactjs">#</a></h3>
 
 
