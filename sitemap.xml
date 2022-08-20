@@ -8,6 +8,31 @@
   </url>
   
   <url>
+    <loc>https://hungpt.info/posts/safe_eval_in_odoo/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/odoo/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/posts/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hungpt.info/posts/use_memo_in_reactjs/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
   </url>
@@ -23,27 +48,12 @@
   </url>
   
   <url>
-    <loc>https://hungpt.info/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hungpt.info/tags/javascript/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hungpt.info/posts/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hungpt.info/tags/reactjs/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/tags/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -89,11 +99,6 @@
   
   <url>
     <loc>https://hungpt.info/posts/odoo-javascript-programming-tutorial-part-two-widget-logic/</loc>
-    <lastmod>2022-07-07T14:15:33+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/tags/odoo/</loc>
     <lastmod>2022-07-07T14:15:33+07:00</lastmod>
   </url>
   
