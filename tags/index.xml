@@ -11,11 +11,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AWS</title>
+      <link>https://hungpt.info/tags/aws/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DevOps</title>
       <link>https://hungpt.info/tags/devops/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hungpt.info/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://hungpt.info/tags/docker/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/tags/docker/</guid>
       <description></description>
     </item>
     
