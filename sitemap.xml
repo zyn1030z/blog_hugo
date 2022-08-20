@@ -8,12 +8,32 @@
   </url>
   
   <url>
+    <loc>https://hungpt.info/posts/k8s_la_gi_part1/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hungpt.info/posts/safe_eval_in_odoo/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://hungpt.info/tags/devops/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hungpt.info/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/kubernetes/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/linux/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url>
   
