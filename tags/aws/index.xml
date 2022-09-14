@@ -9,7 +9,18 @@
       <link>https://hungpt.info/thumbnail.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Dành cho Beginner] IAM trong AWS</title>
+      <link>https://hungpt.info/posts/aws_lab_1/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/aws_lab_1/</guid>
+      <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.
+Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!
+1.IAM (Identity and Access Management) là gì? IAM (Identity and Access Management) tạm dịch là &amp;ldquo;Quản lý truy cập và nhận dạng&amp;rdquo; là một dịch vụ web giúp bạn kiểm soát truy cập an toàn vào các tài nguyên AWS.</description>
+    </item>
+    
     <item>
       <title>[K8S] - Phần 1: K8S là gì ?</title>
       <link>https://hungpt.info/posts/k8s_la_gi_part1/</link>
@@ -17,17 +28,6 @@
       
       <guid>https://hungpt.info/posts/k8s_la_gi_part1/</guid>
       <description>[K8S] - Phần 1: K8S là gì ?</description>
-    </item>
-    
-    <item>
-      <title>[Dành cho Beginner] IAM trong AWS</title>
-      <link>https://hungpt.info/posts/aws_lab_1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hungpt.info/posts/aws_lab_1/</guid>
-      <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.
-Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!
-1.IAM (Identity and Access Management) là gì? IAM (Identity and Access Management) tạm dịch là &amp;ldquo;Quản lý truy cập và nhận dạng&amp;rdquo; là một dịch vụ web giúp bạn kiểm soát truy cập an toàn vào các tài nguyên AWS.</description>
     </item>
     
   </channel>

@@ -8,12 +8,32 @@
   </url>
   
   <url>
-    <loc>https://hungpt.info/posts/k8s_la_gi_part1/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+    <loc>https://hungpt.info/posts/aws_lab_1/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hungpt.info/tags/aws/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/posts/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/tags/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/posts/k8s_la_gi_part1/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,11 +53,6 @@
   </url>
   
   <url>
-    <loc>https://hungpt.info/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hungpt.info/tags/kubernetes/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url>
@@ -49,16 +64,6 @@
   
   <url>
     <loc>https://hungpt.info/tags/odoo/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/posts/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/tags/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -145,10 +150,6 @@
   <url>
     <loc>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hungpt.info/posts/aws_lab_1/</loc>
   </url>
   
   <url>
