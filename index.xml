@@ -176,16 +176,16 @@ field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta k
       <description>ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, ….</description>
     </item>
     
-    
-    
     <item>
-      <title>AWS lab 1 IAM MFA</title>
+      <title>[Dành cho Beginner] IAM trong AWS</title>
       <link>https://hungpt.info/posts/aws_lab_1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hungpt.info/posts/aws_lab_1/</guid>
       <description></description>
     </item>
+    
+    
     
     
     
