@@ -11,15 +11,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
-      <link>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
-      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
-      <description>Những lỗi cơ bản trong lập trình mà developer nên tránh.</description>
-    </item>
-    
-    <item>
       <title>[Dành cho Beginner] IAM trong AWS</title>
       <link>https://hungpt.info/posts/aws_lab_1/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
@@ -167,6 +158,15 @@ field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta k
       
       <guid>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</guid>
       <description>ReactJS là một Javascript framework rất phổ biến với giới lập trình Web Frontend hiện nay, số lượng tuyển dụng lập trình viên ReactJS cũng rất lớn. Do đó nhiều người mới học Web Frontend sau khi học xong một chút HTML CSS JS là muốn nhảy vào lập trình ReactJS ngay. Điều này dẫn đến hệ lụy là các bạn sẽ bị hổng kiến thức cơ bản, hoặc khi học ReactJS sẽ rất chật vật vì không hiểu cú pháp, không hiểu bản chất, ….</description>
+    </item>
+    
+    <item>
+      <title>Những lỗi cơ bản trong lập trình mà developer nên tránh</title>
+      <link>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</guid>
+      <description>Những lỗi cơ bản trong lập trình mà developer nên tránh.</description>
     </item>
     
   </channel>

@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hungpt.info/posts/aws_lab_1/</loc>
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url>
@@ -149,6 +144,11 @@
   
   <url>
     <loc>https://hungpt.info/posts/kien-thuc-javascript-co-ban-can-phai-biet-truoc-khi-hoc-react-native-reactjs/</loc>
+    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/posts/nhung-loi-co-ban-trong-lap-trinh-ma-developer-nen-tranh/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url>
   
