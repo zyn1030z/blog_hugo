@@ -183,7 +183,8 @@ field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta k
       
       <guid>https://hungpt.info/posts/aws_lab_1/</guid>
       <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.
-Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!</description>
+Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!
+1.IAM (Identity and Access Management) là gì? </description>
     </item>
     
     
