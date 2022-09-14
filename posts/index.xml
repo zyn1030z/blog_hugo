@@ -164,7 +164,8 @@ field_one = fields.Integer(&#39;Field One&#39;) Thông thường khi chúng ta k
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hungpt.info/posts/aws_lab_1/</guid>
-      <description></description>
+      <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về IAM (Identity and Access Management) trong AWS.
+Chắc hẳn khi mới bắt đầu tìm hiểu về Amazon Web Services, IAM là một trong những khái niệm mà chúng ta tiếp xúc đầu tiên. Cùng bắt đầu thôi!</description>
     </item>
     
   </channel>
