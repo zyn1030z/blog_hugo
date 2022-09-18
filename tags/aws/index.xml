@@ -16,7 +16,8 @@
       <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hungpt.info/posts/vpc_in_aws/</guid>
-      <description></description>
+      <description>Xin chào mọi người. Hôm nay chúng ta sẽ cùng tìm hiểu về VPC (Virtual Private Cloud) trong AWS.
+Tổng quan về VPC Virtual Private Cloud là gì ? Amazon Virtual Private Cloud (Amazon VPC) là dịch vụ cho phép bạn khởi chạy các tài nguyên AWS trong mạng ảo cô lập theo logic mà bạn xác định. Bạn có toàn quyền kiểm soát môi trường mạng ảo của mình, bao gồm lựa chọn dải địa chỉ IP, tạo các mạng con, cấu hình các bảng định tuyến và cổng kết nối mạng.</description>
     </item>
     
     <item>
