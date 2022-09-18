@@ -9,7 +9,16 @@
       <link>https://hungpt.info/thumbnail.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hungpt.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Dành cho Beginner] VPC trong AWS</title>
+      <link>https://hungpt.info/posts/vpc_in_aws/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungpt.info/posts/vpc_in_aws/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>[Dành cho Beginner] IAM trong AWS</title>
       <link>https://hungpt.info/posts/aws_lab_1/</link>
