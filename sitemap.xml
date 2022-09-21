@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hungpt.info/posts/vpc_in_aws/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hungpt.info/posts/vpn_in_aws/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hungpt.info/tags/aws/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hungpt.info/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hungpt.info/posts/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://hungpt.info/tags/</loc>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hungpt.info/posts/vpc_in_aws/</loc>
     <lastmod>2022-09-18T00:00:00+00:00</lastmod>
   </url>
   
